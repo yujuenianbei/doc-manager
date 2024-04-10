@@ -1,1 +1,0 @@
-export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"zh-CN\",\"title\":\"你好， 欢迎阅读 ！\",\"description\":\"这是我的第一个 VuePress 站点\",\"head\":[[\"meta\",{\"name\":\"msapplication-TileImage\",\"content\":\"/images/panda.png\"}],[\"link\",{\"rel\":\"icon\",\"href\":\"/images/panda.png\"}]],\"locales\":{}}")
