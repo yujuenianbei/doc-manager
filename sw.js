@@ -88,13 +88,13 @@ define(['./workbox-cb015efe'], (function (workbox) { 'use strict';
     "revision": "d69704d84dc6d8b0019d1a1292456f8c"
   }, {
     "url": "index.html",
-    "revision": "5a72c734800a54e3c14c45f842d5a320"
+    "revision": "45cb942a8a50b1be38423ad85de3b120"
   }, {
     "url": "pwa-192x192.png",
     "revision": "e8edb535529201a3b8a82f2fe3b07b09"
   }, {
     "url": "registerSW.js",
-    "revision": "1872c500de691dce40960bb85481de07"
+    "revision": "cf34bb63f60d26188fa4e0ac16dbe07d"
   }, {
     "url": "vite.svg",
     "revision": "8e3a10e157f75ada21ab742c022d5430"
@@ -105,11 +105,8 @@ define(['./workbox-cb015efe'], (function (workbox) { 'use strict';
     "url": "icon.png",
     "revision": "d69704d84dc6d8b0019d1a1292456f8c"
   }, {
-    "url": "pwa-192x192.png",
-    "revision": "e8edb535529201a3b8a82f2fe3b07b09"
-  }, {
     "url": "manifest.webmanifest",
-    "revision": "e7fe8d366987569f9193bd490072ef77"
+    "revision": "bf57bb8ccfb445256af656230fe9ebae"
   }], {});
   workbox.cleanupOutdatedCaches();
   workbox.registerRoute(new workbox.NavigationRoute(workbox.createHandlerBoundToURL("index.html")));
