@@ -1,1 +1,28 @@
-{"name":"ESP vite","short_name":"Vitesse","start_url":"/","display":"standalone","background_color":"#373737","lang":"en","scope":"/doc-manager/","theme_color":"#ff0","icons":[{"src":"/doc-manager/icon.png","sizes":"48x48","type":"image/png"},{"src":"/doc-manager/pwa-192x192.png","sizes":"192x192","type":"image/png"}]}
+{
+    "name": "PWA Router",
+    "short_name": "PWA Router",
+    "start_url": "/doc-manager/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "lang": "en",
+    "scope": "/doc-manager/",
+    "theme_color": "#ffffff",
+    "icons": [
+        {
+            "src": "/doc-manager/pwa-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/doc-manager/pwa-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/doc-manager/pwa-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
