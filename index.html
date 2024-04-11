@@ -1,37 +1,33 @@
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="generator" content="VuePress 2.0.0-rc.8" />
-    <style>
-      :root {
-        --c-bg: #fff;
-      }
-      html.dark {
-        --c-bg: #22272e;
-      }
-      html,
-      body {
-        background-color: var(--c-bg);
-      }
-    </style>
-    <script>
-      const userMode = localStorage.getItem('vuepress-color-scheme')
-      const systemDarkMode =
-        window.matchMedia &&
-        window.matchMedia('(prefers-color-scheme: dark)').matches
-      if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
-        document.documentElement.classList.toggle('dark', true)
-      }
-    </script>
-    <meta name="msapplication-TileImage" content="/doc-manager/images/panda.png"><link rel="icon" href="/doc-manager/images/panda.png"><link rel="manifest" href="/doc-manager/manifest.webmanifest.json"><title>Home | 你好， 欢迎阅读 ！</title><meta name="description" content="这是我的第一个 VuePress 站点">
-    <link rel="preload" href="/doc-manager/assets/style-HswsubAd.css" as="style"><link rel="stylesheet" href="/doc-manager/assets/style-HswsubAd.css">
-    <link rel="modulepreload" href="/doc-manager/assets/app-C8Hyjce-.js"><link rel="modulepreload" href="/doc-manager/assets/index.html-ld56iAhy.js">
-    <link rel="prefetch" href="/doc-manager/assets/get-started.html-BO3bZT_-.js" as="script"><link rel="prefetch" href="/doc-manager/assets/index.html-BlVCKv0r.js" as="script"><link rel="prefetch" href="/doc-manager/assets/demo1.html--EsB4iCS.js" as="script"><link rel="prefetch" href="/doc-manager/assets/demo2.html-BM0GC-Ed.js" as="script"><link rel="prefetch" href="/doc-manager/assets/demo3.html-YfE-xC7c.js" as="script"><link rel="prefetch" href="/doc-manager/assets/demo4.html-shuN_22j.js" as="script"><link rel="prefetch" href="/doc-manager/assets/index.html-Bp-wW6bL.js" as="script"><link rel="prefetch" href="/doc-manager/assets/软件工程基础知识-概述和过程模型.html-B2UIilyI.js" as="script"><link rel="prefetch" href="/doc-manager/assets/软件工程基础知识-软件质量.html-DdDfX00o.js" as="script"><link rel="prefetch" href="/doc-manager/assets/软件工程基础知识-软件项目管理.html-DQdpw7IL.js" as="script"><link rel="prefetch" href="/doc-manager/assets/软件工程基础知识-需求分析和系统设计.html-CB6SDHwl.js" as="script"><link rel="prefetch" href="/doc-manager/assets/404.html-EEL6TuNm.js" as="script">
-  </head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 搜索 -->
+    <meta name='description' content="ESP vite">
+    <meta name='keywords' content="ESP vite">
+
+    <!-- web app -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- theme color-->
+    <meta name="theme-color" content="#373737" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#1a1a1a" media="(prefers-color-scheme: dark)">
+
+    <!-- fav icon -->
+    <link rel="shortcut icon" href="/icon.png" type="image/png">
+
+    <!-- apple-touch-icon -->
+    <link rel="apple-touch-icon" href="/icon.png">
+    <!-- mask-icon 目前非必须 -->
+    <link rel="mask-icon" href="/icon.png">
+    <title>Vite + React + TS</title>
+    <script type="module" crossorigin src="/assets/index-lD1PqdJ6.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BH3lXVhJ.css">
+  <link rel="manifest" href="/manifest.webmanifest"><script id="vite-plugin-pwa:register-sw" src="/registerSW.js"></script></head>
   <body>
-    <div id="app"><!--[--><div class="theme-container no-sidebar"><!--[--><header class="navbar"><div class="toggle-sidebar-button" title="切换侧边栏" aria-expanded="false" role="button" tabindex="0"><div class="icon" aria-hidden="true"><span></span><span></span><span></span></div></div><span><a class="route-link" href="/doc-manager/"><img class="logo" src="/doc-manager/images/panda.png" alt="你好， 欢迎阅读 ！"><span class="site-name can-hide" aria-hidden="true">你好， 欢迎阅读 ！</span></a></span><div class="navbar-items-wrapper" style=""><!--[--><!--]--><nav class="navbar-items can-hide" aria-label="site navigation"><!--[--><div class="navbar-item"><a class="route-link" href="/doc-manager/" aria-label="首页"><!--[--><!--]--> 首页 <!--[--><!--]--></a></div><div class="navbar-item"><a class="route-link" href="/doc-manager/demo/" aria-label="测试"><!--[--><!--]--> 测试 <!--[--><!--]--></a></div><div class="navbar-item"><div class="navbar-dropdown-wrapper"><button class="navbar-dropdown-title" type="button" aria-label="软件工程"><span class="title">软件工程</span><span class="arrow down"></span></button><button class="navbar-dropdown-title-mobile" type="button" aria-label="软件工程"><span class="title">软件工程</span><span class="right arrow"></span></button><ul style="display:none;" class="navbar-dropdown"><!--[--><li class="navbar-dropdown-item"><a class="route-link" href="/doc-manager/software/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-%E6%A6%82%E8%BF%B0%E5%92%8C%E8%BF%87%E7%A8%8B%E6%A8%A1%E5%9E%8B.html" aria-label="软件工程概述"><!--[--><!--]--> 软件工程概述 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a class="route-link" href="/doc-manager/software/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90%E5%92%8C%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1.html" aria-label="需求分析"><!--[--><!--]--> 需求分析 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a class="route-link" href="/doc-manager/software/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-%E8%BD%AF%E4%BB%B6%E8%B4%A8%E9%87%8F.html" aria-label="软件质量"><!--[--><!--]--> 软件质量 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a class="route-link" href="/doc-manager/software/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-%E8%BD%AF%E4%BB%B6%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86.html" aria-label="软件项目管理"><!--[--><!--]--> 软件项目管理 <!--[--><!--]--></a></li><!--]--></ul></div></div><!--]--></nav><!--[--><!--]--><button class="toggle-color-mode-button" title="切换颜色模式"><svg style="" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M16 12.005a4 4 0 1 1-4 4a4.005 4.005 0 0 1 4-4m0-2a6 6 0 1 0 6 6a6 6 0 0 0-6-6z" fill="currentColor"></path><path d="M5.394 6.813l1.414-1.415l3.506 3.506L8.9 10.318z" fill="currentColor"></path><path d="M2 15.005h5v2H2z" fill="currentColor"></path><path d="M5.394 25.197L8.9 21.691l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 25.005h2v5h-2z" fill="currentColor"></path><path d="M21.687 23.106l1.414-1.415l3.506 3.506l-1.414 1.414z" fill="currentColor"></path><path d="M25 15.005h5v2h-5z" fill="currentColor"></path><path d="M21.687 8.904l3.506-3.506l1.414 1.415l-3.506 3.505z" fill="currentColor"></path><path d="M15 2.005h2v5h-2z" fill="currentColor"></path></svg><svg style="display:none;" class="icon" focusable="false" viewBox="0 0 32 32"><path d="M13.502 5.414a15.075 15.075 0 0 0 11.594 18.194a11.113 11.113 0 0 1-7.975 3.39c-.138 0-.278.005-.418 0a11.094 11.094 0 0 1-3.2-21.584M14.98 3a1.002 1.002 0 0 0-.175.016a13.096 13.096 0 0 0 1.825 25.981c.164.006.328 0 .49 0a13.072 13.072 0 0 0 10.703-5.555a1.01 1.01 0 0 0-.783-1.565A13.08 13.08 0 0 1 15.89 4.38A1.015 1.015 0 0 0 14.98 3z" fill="currentColor"></path></svg></button><!----></div></header><!--]--><div class="sidebar-mask"></div><!--[--><aside class="sidebar"><nav class="navbar-items" aria-label="site navigation"><!--[--><div class="navbar-item"><a class="route-link" href="/doc-manager/" aria-label="首页"><!--[--><!--]--> 首页 <!--[--><!--]--></a></div><div class="navbar-item"><a class="route-link" href="/doc-manager/demo/" aria-label="测试"><!--[--><!--]--> 测试 <!--[--><!--]--></a></div><div class="navbar-item"><div class="navbar-dropdown-wrapper"><button class="navbar-dropdown-title" type="button" aria-label="软件工程"><span class="title">软件工程</span><span class="arrow down"></span></button><button class="navbar-dropdown-title-mobile" type="button" aria-label="软件工程"><span class="title">软件工程</span><span class="right arrow"></span></button><ul style="display:none;" class="navbar-dropdown"><!--[--><li class="navbar-dropdown-item"><a class="route-link" href="/doc-manager/software/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-%E6%A6%82%E8%BF%B0%E5%92%8C%E8%BF%87%E7%A8%8B%E6%A8%A1%E5%9E%8B.html" aria-label="软件工程概述"><!--[--><!--]--> 软件工程概述 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a class="route-link" href="/doc-manager/software/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-%E9%9C%80%E6%B1%82%E5%88%86%E6%9E%90%E5%92%8C%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1.html" aria-label="需求分析"><!--[--><!--]--> 需求分析 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a class="route-link" href="/doc-manager/software/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-%E8%BD%AF%E4%BB%B6%E8%B4%A8%E9%87%8F.html" aria-label="软件质量"><!--[--><!--]--> 软件质量 <!--[--><!--]--></a></li><li class="navbar-dropdown-item"><a class="route-link" href="/doc-manager/software/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86-%E8%BD%AF%E4%BB%B6%E9%A1%B9%E7%9B%AE%E7%AE%A1%E7%90%86.html" aria-label="软件项目管理"><!--[--><!--]--> 软件项目管理 <!--[--><!--]--></a></li><!--]--></ul></div></div><!--]--></nav><!--[--><!--]--><!----><!--[--><!--]--></aside><!--]--><!--[--><main class="home"><header class="hero"><!----><h1 id="main-title">你好， 欢迎阅读 ！</h1><p class="description">这是我的第一个 VuePress 站点</p><p class="actions"><!--[--><a class="route-link action-button primary" href="/doc-manager/get-started.html" aria-label="Get Started"><!--[--><!--]--> Get Started <!--[--><!--]--></a><a class="external-link action-button secondary" href="https://vuejs.press/guide/introduction.html" rel="noopener noreferrer" target="_blank" aria-label="Introduction"><!--[--><!--]--> Introduction <span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">在新窗口打开</span></span><!--[--><!--]--></a><!--]--></p></header><div class="features"><!--[--><div class="feature"><h2>Simplicity First</h2><p>Minimal setup with markdown-centered project structure helps you focus on writing.</p></div><div class="feature"><h2>Vue-Powered</h2><p>Enjoy the dev experience of Vue, use Vue components in markdown, and develop custom themes with Vue.</p></div><div class="feature"><h2>Performant</h2><p>VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.</p></div><div class="feature"><h2>Themes</h2><p>Providing a default theme out of the box. You can also choose a community theme or create your own one.</p></div><div class="feature"><h2>Plugins</h2><p>Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site.</p></div><div class="feature"><h2>Bundlers</h2><p>Default bundler is Vite, while Webpack is also supported. Choose the one you like!</p></div><!--]--></div><div class="theme-default-content"><div><p>This is the content of home page. Check <a href="https://vuejs.press/reference/default-theme/frontmatter.html#home-page" target="_blank" rel="noopener noreferrer">Home Page Docs<span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">在新窗口打开</span></span></a> for more details.</p><h1 id="hello-vuepress" tabindex="-1"><a class="header-anchor" href="#hello-vuepress"><span>Hello VuePress</span></a></h1></div></div><!--[--><div class="footer">MIT Licensed | Copyright © 2018-present VuePress Community</div><!--]--></main><!--]--></div><!--[--><!----><!--]--><!--]--></div>
-    <script type="module" src="/doc-manager/assets/app-C8Hyjce-.js" defer></script>
+    <div id="root"></div>
   </body>
 </html>
