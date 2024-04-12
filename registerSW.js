@@ -1,1 +1,0 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/doc-manager/sw.js', { scope: '/doc-manager/' })})}
